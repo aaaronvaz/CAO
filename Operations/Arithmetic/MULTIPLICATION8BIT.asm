@@ -1,0 +1,11 @@
+;MULTILICATION
+CODE SEGMENT
+ASSUME CS:CODE
+
+START:  MOV AL,0AH
+        MOV AH,0FH
+        MUL AH
+         
+          
+CODE ENDS
+END START
